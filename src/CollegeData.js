@@ -1,5 +1,6 @@
-[
+export const Colleges = [
     {
+        "ranking": "3",
         "name": "IIT Bombay - Indian Institute of Technology Bombay",
         "city": "Mumbai",
         "state": "Maharashtra",
@@ -9,10 +10,10 @@
         "highest_package": "3400000",
         "collegeduniya_rating": "9.5",
         "user_rating": "9.2",
-        "ranking": "1",
         "featured": true
     },
     {
+        "ranking": "2",
         "name": "IIT Delhi - Indian Institute of Technology Delhi",
         "city": "New Delhi",
         "state": "Delhi",
@@ -22,10 +23,10 @@
         "highest_package": "3300000",
         "collegeduniya_rating": "9.3",
         "user_rating": "9.0",
-        "ranking": "2",
         "featured": true
     },
     {
+        "ranking": "1",
         "name": "IIT Madras - Indian Institute of Technology Madras",
         "city": "Chennai",
         "state": "Tamil Nadu",
@@ -35,10 +36,10 @@
         "highest_package": "3200000",
         "collegeduniya_rating": "9.4",
         "user_rating": "9.1",
-        "ranking": "3",
         "featured": true
     },
     {
+        "ranking": "4",
         "name": "IIT Kanpur - Indian Institute of Technology Kanpur",
         "city": "Kanpur",
         "state": "Uttar Pradesh",
@@ -48,10 +49,10 @@
         "highest_package": "3100000",
         "collegeduniya_rating": "9.0",
         "user_rating": "8.8",
-        "ranking": "4",
         "featured": false
     },
     {
+        "ranking": "6",
         "name": "IIT Kharagpur - Indian Institute of Technology Kharagpur",
         "city": "Kharagpur",
         "state": "West Bengal",
@@ -61,10 +62,10 @@
         "highest_package": "3000000",
         "collegeduniya_rating": "9.2",
         "user_rating": "9.0",
-        "ranking": "5",
         "featured": false
     },
     {
+        "ranking": "5",
         "name": "IIT Roorkee - Indian Institute of Technology Roorkee",
         "city": "Roorkee",
         "state": "Uttarakhand",
@@ -74,10 +75,10 @@
         "highest_package": "2900000",
         "collegeduniya_rating": "8.9",
         "user_rating": "8.7",
-        "ranking": "6",
         "featured": false
     },
     {
+        "ranking": "7",
         "name": "IIT Guwahati - Indian Institute of Technology Guwahati",
         "city": "Guwahati",
         "state": "Assam",
@@ -87,10 +88,10 @@
         "highest_package": "3050000",
         "collegeduniya_rating": "8.8",
         "user_rating": "8.6",
-        "ranking": "7",
         "featured": false
     },
     {
+        "ranking": "8",
         "name": "IIT Hyderabad - Indian Institute of Technology Hyderabad",
         "city": "Hyderabad",
         "state": "Telangana",
@@ -100,10 +101,10 @@
         "highest_package": "3500000",
         "collegeduniya_rating": "9.1",
         "user_rating": "9.0",
-        "ranking": "8",
         "featured": true
     },
     {
+        "ranking": "15",
         "name": "IIT BHU - Indian Institute of Technology (BHU) Varanasi",
         "city": "Varanasi",
         "state": "Uttar Pradesh",
@@ -113,10 +114,10 @@
         "highest_package": "3075000",
         "collegeduniya_rating": "8.7",
         "user_rating": "8.5",
-        "ranking": "9",
         "featured": false
     },
     {
+        "ranking": "14",
         "name": "IIT Indore - Indian Institute of Technology Indore",
         "city": "Indore",
         "state": "Madhya Pradesh",
@@ -126,10 +127,11 @@
         "highest_package": "2920000",
         "collegeduniya_rating": "8.4",
         "user_rating": "8.2",
-        "ranking": "10",
+
         "featured": false
     },
     {
+        "ranking": "17",
         "name": "IIT Dhanbad - Indian Institute of Technology (ISM) Dhanbad",
         "city": "Dhanbad",
         "state": "Jharkhand",
@@ -139,10 +141,11 @@
         "highest_package": "3100000",
         "collegeduniya_rating": "8.6",
         "user_rating": "8.4",
-        "ranking": "11",
+
         "featured": false
     },
     {
+        "ranking": "44",
         "name": "IIT Bhubaneswar - Indian Institute of Technology Bhubaneswar",
         "city": "Bhubaneswar",
         "state": "Odisha",
@@ -152,10 +155,11 @@
         "highest_package": "2850000",
         "collegeduniya_rating": "8.2",
         "user_rating": "8.0",
-        "ranking": "12",
+
         "featured": false
     },
     {
+        "ranking": "18",
         "name": "IIT Gandhinagar - Indian Institute of Technology Gandhinagar",
         "city": "Gandhinagar",
         "state": "Gujarat",
@@ -165,10 +169,11 @@
         "highest_package": "3000000",
         "collegeduniya_rating": "8.5",
         "user_rating": "8.3",
-        "ranking": "13",
+
         "featured": false
     },
     {
+        "ranking": "22",
         "name": "IIT Ropar - Indian Institute of Technology Ropar",
         "city": "Ropar",
         "state": "Punjab",
@@ -178,10 +183,11 @@
         "highest_package": "2950000",
         "collegeduniya_rating": "8.1",
         "user_rating": "7.9",
-        "ranking": "14",
+
         "featured": false
     },
     {
+        "ranking": "41",
         "name": "IIT Patna - Indian Institute of Technology Patna",
         "city": "Patna",
         "state": "Bihar",
@@ -191,10 +197,11 @@
         "highest_package": "3050000",
         "collegeduniya_rating": "8.3",
         "user_rating": "8.1",
-        "ranking": "15",
+
         "featured": false
     },
     {
+        "ranking": "33",
         "name": "IIT Mandi - Indian Institute of Technology Mandi",
         "city": "Mandi",
         "state": "Himachal Pradesh",
@@ -204,10 +211,11 @@
         "highest_package": "3200000",
         "collegeduniya_rating": "8.0",
         "user_rating": "7.8",
-        "ranking": "16",
+
         "featured": false
     },
     {
+        "ranking": "30",
         "name": "IIT Jodhpur - Indian Institute of Technology Jodhpur",
         "city": "Jodhpur",
         "state": "Rajasthan",
@@ -217,10 +225,11 @@
         "highest_package": "3250000",
         "collegeduniya_rating": "8.4",
         "user_rating": "8.2",
-        "ranking": "17",
+
         "featured": false
     },
     {
+        "ranking": "59",
         "name": "IIT Tirupati - Indian Institute of Technology Tirupati",
         "city": "Tirupati",
         "state": "Andhra Pradesh",
@@ -230,10 +239,11 @@
         "highest_package": "2800000",
         "collegeduniya_rating": "7.9",
         "user_rating": "7.7",
-        "ranking": "18",
+
         "featured": false
     },
     {
+        "ranking": "69",
         "name": "IIT Palakkad - Indian Institute of Technology Palakkad",
         "city": "Palakkad",
         "state": "Kerala",
@@ -243,10 +253,11 @@
         "highest_package": "2900000",
         "collegeduniya_rating": "7.8",
         "user_rating": "7.6",
-        "ranking": "19",
+
         "featured": false
     },
     {
+        "ranking": "21",
         "name": "IIT Goa - Indian Institute of Technology Goa",
         "city": "Goa",
         "state": "Goa",
@@ -256,10 +267,11 @@
         "highest_package": "3100000",
         "collegeduniya_rating": "7.7",
         "user_rating": "7.5",
-        "ranking": "20",
+
         "featured": false
     },
     {
+        "ranking": "93",
         "name": "IIT Dharwad - Indian Institute of Technology Dharwad",
         "city": "Dharwad",
         "state": "Karnataka",
@@ -269,10 +281,11 @@
         "highest_package": "2950000",
         "collegeduniya_rating": "7.6",
         "user_rating": "7.4",
-        "ranking": "21",
+
         "featured": false
     },
     {
+        "ranking": "81",
         "name": "IIT Bhilai - Indian Institute of Technology Bhilai",
         "city": "Bhilai",
         "state": "Chhattisgarh",
@@ -282,10 +295,11 @@
         "highest_package": "2850000",
         "collegeduniya_rating": "7.5",
         "user_rating": "7.3",
-        "ranking": "22",
+
         "featured": false
     },
     {
+        "ranking": "67",
         "name": "IIT Jammu - Indian Institute of Technology Jammu",
         "city": "Jammu",
         "state": "Jammu and Kashmir",
@@ -295,10 +309,11 @@
         "highest_package": "3000000",
         "collegeduniya_rating": "7.4",
         "user_rating": "7.2",
-        "ranking": "23",
+
         "featured": false
     },
     {
+        "ranking": "9",
         "name": "NIT Trichy - National Institute of Technology, Tiruchirappalli",
         "city": "Tiruchirappalli",
         "state": "Tamil Nadu",
@@ -308,10 +323,10 @@
         "highest_package": "4200000",
         "collegeduniya_rating": "9.2",
         "user_rating": "9.0",
-        "ranking": "1",
         "featured": true
     },
     {
+        "ranking": "12",
         "name": "NIT Surathkal - National Institute of Technology, Surathkal",
         "city": "Mangalore",
         "state": "Karnataka",
@@ -321,10 +336,10 @@
         "highest_package": "4000000",
         "collegeduniya_rating": "9.0",
         "user_rating": "8.9",
-        "ranking": "2",
         "featured": true
     },
     {
+        "ranking": "20",
         "name": "NIT Warangal - National Institute of Technology, Warangal",
         "city": "Warangal",
         "state": "Telangana",
@@ -334,10 +349,10 @@
         "highest_package": "3800000",
         "collegeduniya_rating": "8.8",
         "user_rating": "8.7",
-        "ranking": "3",
         "featured": false
     },
     {
+        "ranking": "23",
         "name": "NIT Calicut - National Institute of Technology, Calicut",
         "city": "Kozhikode",
         "state": "Kerala",
@@ -347,10 +362,10 @@
         "highest_package": "3500000",
         "collegeduniya_rating": "8.5",
         "user_rating": "8.4",
-        "ranking": "4",
         "featured": false
     },
     {
+        "ranking": "16",
         "name": "NIT Rourkela - National Institute of Technology, Rourkela",
         "city": "Rourkela",
         "state": "Odisha",
@@ -360,10 +375,10 @@
         "highest_package": "3700000",
         "collegeduniya_rating": "8.7",
         "user_rating": "8.5",
-        "ranking": "5",
         "featured": false
     },
     {
+        "ranking": "37",
         "name": "NIT Jaipur - Malaviya National Institute of Technology",
         "city": "Jaipur",
         "state": "Rajasthan",
@@ -373,10 +388,10 @@
         "highest_package": "3300000",
         "collegeduniya_rating": "8.2",
         "user_rating": "8.1",
-        "ranking": "6",
         "featured": false
     },
     {
+        "ranking": "80",
         "name": "NIT Bhopal - Maulana Azad National Institute of Technology",
         "city": "Bhopal",
         "state": "Madhya Pradesh",
@@ -386,10 +401,10 @@
         "highest_package": "3400000",
         "collegeduniya_rating": "8.3",
         "user_rating": "8.2",
-        "ranking": "7",
         "featured": false
     },
     {
+        "ranking": "49",
         "name": "NIT Allahabad - Motilal Nehru National Institute of Technology",
         "city": "Allahabad",
         "state": "Uttar Pradesh",
@@ -399,10 +414,10 @@
         "highest_package": "3600000",
         "collegeduniya_rating": "8.6",
         "user_rating": "8.4",
-        "ranking": "8",
         "featured": false
     },
     {
+        "ranking": "43",
         "name": "NIT Durgapur - National Institute of Technology, Durgapur",
         "city": "Durgapur",
         "state": "West Bengal",
@@ -412,10 +427,10 @@
         "highest_package": "3200000",
         "collegeduniya_rating": "8.0",
         "user_rating": "7.9",
-        "ranking": "9",
         "featured": false
     },
     {
+        "ranking": "40",
         "name": "NIT Silchar - National Institute of Technology, Silchar",
         "city": "Silchar",
         "state": "Assam",
@@ -425,10 +440,11 @@
         "highest_package": "3300000",
         "collegeduniya_rating": "8.1",
         "user_rating": "8.0",
-        "ranking": "10",
+
         "featured": false
     },
     {
+        "ranking": "50",
         "name": "NIT Hamirpur - National Institute of Technology, Hamirpur",
         "city": "Hamirpur",
         "state": "Himachal Pradesh",
@@ -438,10 +454,11 @@
         "highest_package": "3400000",
         "collegeduniya_rating": "8.0",
         "user_rating": "7.9",
-        "ranking": "11",
+
         "featured": false
     },
     {
+        "ranking": "46",
         "name": "NIT Jalandhar - Dr. B. R. Ambedkar National Institute of Technology",
         "city": "Jalandhar",
         "state": "Punjab",
@@ -451,10 +468,11 @@
         "highest_package": "3100000",
         "collegeduniya_rating": "7.9",
         "user_rating": "7.8",
-        "ranking": "12",
+
         "featured": false
     },
     {
+        "ranking": "91",
         "name": "NIT Agartala - National Institute of Technology, Agartala",
         "city": "Agartala",
         "state": "Tripura",
@@ -464,10 +482,11 @@
         "highest_package": "3000000",
         "collegeduniya_rating": "7.8",
         "user_rating": "7.7",
-        "ranking": "13",
+
         "featured": false
     },
     {
+        "ranking": "58",
         "name": "NIT Kurukshetra - National Institute of Technology, Kurukshetra",
         "city": "Kurukshetra",
         "state": "Haryana",
@@ -477,10 +496,11 @@
         "highest_package": "3200000",
         "collegeduniya_rating": "7.7",
         "user_rating": "7.6",
-        "ranking": "14",
+
         "featured": false
     },
     {
+        "ranking": "70",
         "name": "NIT Raipur - National Institute of Technology, Raipur",
         "city": "Raipur",
         "state": "Chhattisgarh",
@@ -490,10 +510,11 @@
         "highest_package": "3000000",
         "collegeduniya_rating": "7.6",
         "user_rating": "7.5",
-        "ranking": "15",
+
         "featured": false
     },
     {
+        "ranking": "55",
         "name": "IIIT Hyderabad - International Institute of Information Technology, Hyderabad",
         "city": "Hyderabad",
         "state": "Telangana",
@@ -503,10 +524,10 @@
         "highest_package": "3500000",
         "collegeduniya_rating": "9.5",
         "user_rating": "9.3",
-        "ranking": "1",
         "featured": true
     },
     {
+        "ranking": "74",
         "name": "IIIT Bangalore - International Institute of Information Technology, Bangalore",
         "city": "Bangalore",
         "state": "Karnataka",
@@ -516,10 +537,10 @@
         "highest_package": "3300000",
         "collegeduniya_rating": "9.4",
         "user_rating": "9.2",
-        "ranking": "2",
         "featured": true
     },
     {
+        "ranking": "75",
         "name": "IIIT Delhi - Indraprastha Institute of Information Technology, Delhi",
         "city": "New Delhi",
         "state": "Delhi",
@@ -529,10 +550,10 @@
         "highest_package": "3600000",
         "collegeduniya_rating": "9.3",
         "user_rating": "9.1",
-        "ranking": "3",
         "featured": true
     },
     {
+        "ranking": "89",
         "name": "IIIT Allahabad - Indian Institute of Information Technology, Allahabad",
         "city": "Allahabad",
         "state": "Uttar Pradesh",
@@ -542,10 +563,10 @@
         "highest_package": "3400000",
         "collegeduniya_rating": "9.2",
         "user_rating": "9.0",
-        "ranking": "4",
         "featured": false
     },
     {
+        "ranking": "84",
         "name": "IIIT Pune - International Institute of Information Technology, Pune",
         "city": "Pune",
         "state": "Maharashtra",
@@ -555,10 +576,10 @@
         "highest_package": "3500000",
         "collegeduniya_rating": "9.1",
         "user_rating": "8.9",
-        "ranking": "5",
         "featured": false
     },
     {
+        "ranking": "102",
         "name": "IIIT Guwahati - Indian Institute of Information Technology, Guwahati",
         "city": "Guwahati",
         "state": "Assam",
@@ -568,10 +589,10 @@
         "highest_package": "3300000",
         "collegeduniya_rating": "9.0",
         "user_rating": "8.8",
-        "ranking": "6",
         "featured": false
     },
     {
+        "ranking": "104",
         "name": "IIIT Bhubaneswar - International Institute of Information Technology, Bhubaneswar",
         "city": "Bhubaneswar",
         "state": "Odisha",
@@ -581,10 +602,10 @@
         "highest_package": "3400000",
         "collegeduniya_rating": "8.9",
         "user_rating": "8.7",
-        "ranking": "7",
         "featured": false
     },
     {
+        "ranking": "108",
         "name": "IIIT Jabalpur - Indian Institute of Information Technology, Jabalpur",
         "city": "Jabalpur",
         "state": "Madhya Pradesh",
@@ -594,10 +615,10 @@
         "highest_package": "3350000",
         "collegeduniya_rating": "8.8",
         "user_rating": "8.6",
-        "ranking": "8",
         "featured": false
     },
     {
+        "ranking": "112",
         "name": "IIIT Lucknow - Indian Institute of Information Technology, Lucknow",
         "city": "Lucknow",
         "state": "Uttar Pradesh",
@@ -607,10 +628,10 @@
         "highest_package": "3380000",
         "collegeduniya_rating": "8.7",
         "user_rating": "8.5",
-        "ranking": "9",
         "featured": false
     },
     {
+        "ranking": "117",
         "name": "IIIT Kota - Indian Institute of Information Technology, Kota",
         "city": "Kota",
         "state": "Rajasthan",
@@ -620,10 +641,11 @@
         "highest_package": "3300000",
         "collegeduniya_rating": "8.6",
         "user_rating": "8.4",
-        "ranking": "10",
+
         "featured": false
     },
     {
+        "ranking": "11",
         "name": "BITS Pilani - Birla Institute of Technology and Science",
         "city": "Pilani",
         "state": "Rajasthan",
@@ -633,10 +655,10 @@
         "highest_package": "5000000",
         "collegeduniya_rating": "9.5",
         "user_rating": "9.3",
-        "ranking": "1",
         "featured": true
     },
     {
+        "ranking": "25",
         "name": "VIT Vellore - Vellore Institute of Technology",
         "city": "Vellore",
         "state": "Tamil Nadu",
@@ -646,10 +668,10 @@
         "highest_package": "4800000",
         "collegeduniya_rating": "9.3",
         "user_rating": "9.1",
-        "ranking": "2",
         "featured": true
     },
     {
+        "ranking": "28",
         "name": "SRM Chennai - SRM Institute of Science and Technology",
         "city": "Chennai",
         "state": "Tamil Nadu",
@@ -659,10 +681,10 @@
         "highest_package": "4600000",
         "collegeduniya_rating": "9.1",
         "user_rating": "8.9",
-        "ranking": "3",
         "featured": true
     },
     {
+        "ranking": "76",
         "name": "Manipal Institute of Technology",
         "city": "Manipal",
         "state": "Karnataka",
@@ -672,10 +694,10 @@
         "highest_package": "4500000",
         "collegeduniya_rating": "8.9",
         "user_rating": "8.7",
-        "ranking": "4",
         "featured": false
     },
     {
+        "ranking": "31",
         "name": "Amity University, Noida",
         "city": "Noida",
         "state": "Uttar Pradesh",
@@ -685,10 +707,10 @@
         "highest_package": "4400000",
         "collegeduniya_rating": "8.7",
         "user_rating": "8.5",
-        "ranking": "5",
         "featured": false
     },
     {
+        "ranking": "63",
         "name": "PSG College of Technology, Coimbatore",
         "city": "Coimbatore",
         "state": "Tamil Nadu",
@@ -698,10 +720,10 @@
         "highest_package": "4300000",
         "collegeduniya_rating": "8.6",
         "user_rating": "8.4",
-        "ranking": "6",
         "featured": false
     },
     {
+        "ranking": "24",
         "name": "Thapar Institute of Engineering and Technology, Patiala",
         "city": "Patiala",
         "state": "Punjab",
@@ -711,10 +733,10 @@
         "highest_package": "4600000",
         "collegeduniya_rating": "8.8",
         "user_rating": "8.6",
-        "ranking": "7",
         "featured": false
     },
     {
+        "ranking": "83",
         "name": "Symbiosis Institute of Technology, Pune",
         "city": "Pune",
         "state": "Maharashtra",
@@ -724,10 +746,10 @@
         "highest_package": "4500000",
         "collegeduniya_rating": "8.5",
         "user_rating": "8.3",
-        "ranking": "8",
         "featured": false
     },
     {
+        "ranking": "77",
         "name": "BITS Hyderabad - Birla Institute of Technology and Science, Hyderabad",
         "city": "Hyderabad",
         "state": "Telangana",
@@ -737,10 +759,10 @@
         "highest_package": "4400000",
         "collegeduniya_rating": "8.4",
         "user_rating": "8.2",
-        "ranking": "9",
         "featured": false
     },
     {
+        "ranking": "98",
         "name": "LNM Institute of Information Technology, Jaipur",
         "city": "Jaipur",
         "state": "Rajasthan",
@@ -750,10 +772,11 @@
         "highest_package": "4700000",
         "collegeduniya_rating": "8.7",
         "user_rating": "8.5",
-        "ranking": "10",
+
         "featured": false
     },
     {
+        "ranking": "71",
         "name": "IIIT Hyderabad - International Institute of Information Technology, Hyderabad",
         "city": "Hyderabad",
         "state": "Telangana",
@@ -763,10 +786,11 @@
         "highest_package": "4800000",
         "collegeduniya_rating": "9.0",
         "user_rating": "8.8",
-        "ranking": "11",
+
         "featured": false
     },
     {
+        "ranking": "83",
         "name": "SRM University, Chennai",
         "city": "Chennai",
         "state": "Tamil Nadu",
@@ -776,10 +800,11 @@
         "highest_package": "4800000",
         "collegeduniya_rating": "8.8",
         "user_rating": "8.6",
-        "ranking": "12",
+
         "featured": false
     },
     {
+        "ranking": "145",
         "name": "KIIT University, Bhubaneswar",
         "city": "Bhubaneswar",
         "state": "Odisha",
@@ -789,10 +814,11 @@
         "highest_package": "4700000",
         "collegeduniya_rating": "8.6",
         "user_rating": "8.4",
-        "ranking": "13",
+
         "featured": false
     },
     {
+        "ranking": "79",
         "name": "Manipal Academy of Higher Education, Manipal",
         "city": "Manipal",
         "state": "Karnataka",
@@ -802,10 +828,11 @@
         "highest_package": "4800000",
         "collegeduniya_rating": "8.9",
         "user_rating": "8.7",
-        "ranking": "14",
+
         "featured": false
     },
     {
+        "ranking": "78",
         "name": "Christ University, Bangalore",
         "city": "Bangalore",
         "state": "Karnataka",
@@ -815,7 +842,7 @@
         "highest_package": "4800000",
         "collegeduniya_rating": "8.7",
         "user_rating": "8.5",
-        "ranking": "15",
+
         "featured": false
     }
 ]
