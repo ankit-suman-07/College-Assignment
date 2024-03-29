@@ -3,9 +3,103 @@
     height: 100px;
     display: grid;
     grid-template-columns: 1fr 4fr 2fr 2fr 1.5fr 1.5fr;
-    }
     
+}
+.card-component:hover {
+    background-color: #FFF3EA;
+    cursor: pointer;
+}
 .card-component div {
     border: 1px solid #ffff;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cell-ranking {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cell-name {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cell-name span {
+    margin: 10px 0 0 10px;
+}
+
+.cell-name-main {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4BC7E7;
+}
+
+.cell-name-location {
+    font-size: 10px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.cell-fee {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #09B791;
+}
+
+.cell-fee-icon {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cell-fee-icon img {
+    height: 20px;
+    width: 20px;
+}
+
+.cell-rating {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.cell-pointer {
+    border: orange;
+    margin: 5px 5px 0 10px;
+    height: 10px;
+    width: 10px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.featured {
+    background-color: #FF284E;
+    border-radius: 3px 3px 15px 15px;
+    color: #ffff;
+    height: 15px;
+    width: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    position: absolute;
+    overflow: visible;
+    bottom: 60px;
+    top: -5px;
+    left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
 }

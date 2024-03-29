@@ -61,7 +61,7 @@ const Scroll = () => {
                     visibleCount: newVisibleCount,
                 };
             });
-        }, 1500);
+        }, 1000);
     };
 
     const sortName = () => {
@@ -201,7 +201,7 @@ const Scroll = () => {
                 dataLength={items.colleges.length}
                 next={fetchMoreData}
                 hasMore={true}
-                loader={<h4>Loading...</h4>}
+                loader={<div className='loader' >Loading more Colleges.....</div>}
             >
 
                 {items.colleges.map((item, index) => (
