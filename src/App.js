@@ -1,6 +1,5 @@
 import './App.css';
 import Scroll from './components/Scroll';
-import Card from './components/Card/Card';
 
 function App() {
   return (

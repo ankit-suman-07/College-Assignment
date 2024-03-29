@@ -19,10 +19,10 @@ const TopBar = ({ onSearch, onSortNameA, onSortNameD, onSortRankA, onSortRankD, 
                     <span>Rank</span>
                     <div className='btn-inner' >
                         <button onClick={onSortRankA}>
-                            <img src={AscendingIcon} />
+                            <img src={AscendingIcon} alt='ascending-icon' />
                         </button>
                         <button onClick={onSortRankD}>
-                            <img src={DescendingIcon} />
+                            <img src={DescendingIcon} alt='descending-icon' />
                         </button>
                     </div>
                 </div>
@@ -31,10 +31,10 @@ const TopBar = ({ onSearch, onSortNameA, onSortNameD, onSortRankA, onSortRankD, 
                     <span>Name</span>
                     <div className='btn-inner' >
                         <button onClick={onSortNameA}>
-                            <img src={AscendingIcon} />
+                            <img src={AscendingIcon} alt='ascending-icon' />
                         </button>
                         <button onClick={onSortNameD}>
-                            <img src={DescendingIcon} />
+                            <img src={DescendingIcon} alt='descending-icon' />
                         </button>
                     </div>
                 </div>
@@ -43,10 +43,10 @@ const TopBar = ({ onSearch, onSortNameA, onSortNameD, onSortRankA, onSortRankD, 
                     <span>Fee</span>
                     <div className='btn-inner' >
                         <button onClick={onSortFeeA}>
-                            <img src={AscendingIcon} />
+                            <img src={AscendingIcon} alt='ascending-icon' />
                         </button>
                         <button onClick={onSortFeeD}>
-                            <img src={DescendingIcon} />
+                            <img src={DescendingIcon} alt='descending-icon' />
                         </button>
                     </div>
                 </div>
@@ -55,10 +55,10 @@ const TopBar = ({ onSearch, onSortNameA, onSortNameD, onSortRankA, onSortRankD, 
                     <span>CD reviews</span>
                     <div className='btn-inner' >
                         <button onClick={onSortCDReviewA}>
-                            <img src={AscendingIcon} />
+                            <img src={AscendingIcon} alt='ascending-icon' />
                         </button>
                         <button onClick={onSortCDReviewD}>
-                            <img src={DescendingIcon} />
+                            <img src={DescendingIcon} alt='descending-icon' />
                         </button>
                     </div>
                 </div>
@@ -67,10 +67,10 @@ const TopBar = ({ onSearch, onSortNameA, onSortNameD, onSortRankA, onSortRankD, 
                     <span>User Reviews</span>
                     <div className='btn-inner' >
                         <button onClick={onSortUserReviewA}>
-                            <img src={AscendingIcon} />
+                            <img src={AscendingIcon} alt='ascending-icon' />
                         </button>
                         <button onClick={onSortUserReviewD}>
-                            <img src={DescendingIcon} />
+                            <img src={DescendingIcon} alt='descending-icon' />
                         </button>
                     </div>
                 </div>

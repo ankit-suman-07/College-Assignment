@@ -30,27 +30,9 @@ const Scroll = () => {
             colleges: filteredColleges.slice(0, items.visibleCount),
             visibleCount: items.visibleCount,
         });
-    }, [searchQuery]);
+    }, [searchQuery, items.visibleCount]);
 
-    useEffect(() => {
-        sortRank();
-    }, [sortByRank]); // Trigger sorting whenever sortBy state changes
 
-    useEffect(() => {
-        sortName();
-    }, [sortByName]);
-
-    useEffect(() => {
-        sortFee();
-    }, [sortByFee]);
-
-    useEffect(() => {
-        sortCDReview();
-    }, [sortByCDReview]);
-
-    useEffect(() => {
-        sortUserReview();
-    }, [sortByUserReview]);
 
     const fetchMoreData = () => {
         setTimeout(() => {
@@ -171,7 +153,25 @@ const Scroll = () => {
 
 
 
+    useEffect(() => {
+        sortRank();
+    }, [sortByRank]); // Trigger sorting whenever sortBy state changes
 
+    useEffect(() => {
+        sortName();
+    }, [sortByName]);
+
+    useEffect(() => {
+        sortFee();
+    }, [sortByFee]);
+
+    useEffect(() => {
+        sortCDReview();
+    }, [sortByCDReview]);
+
+    useEffect(() => {
+        sortUserReview();
+    }, [sortByUserReview]);
 
     return (
         <div>

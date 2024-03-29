@@ -18,13 +18,13 @@ const Card = ({ ranking, name, city, state, course, course_fee, average_package,
             </div>
             <div className='cell-fee' >
                 <span className='cell-fee-icon' >
-                    <img src={INRIcon} />
+                    <img src={INRIcon} alt='inr-icon' />
                 </span>
                 {course_fee}
             </div>
             <div className='cell-fee' >
                 <span className='cell-fee-icon' >
-                    <img src={INRIcon} />
+                    <img src={INRIcon} alt='inr-icon' />
                 </span>
                 {average_package}
             </div>
