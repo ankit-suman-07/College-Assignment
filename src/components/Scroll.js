@@ -1,51 +1,58 @@
 import React, { useState, useEffect } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import { Colleges } from '../CollegeData';
-import "./Scroll.css";
+
 import Card from './Card/Card';
 import TopBar from './TopBar/TopBar';
 
-const Scroll = () => {
-    const [items, setItems] = useState({
-        colleges: Colleges.slice(0, 10),
-        visibleCount: 10,
-    }); // Display first 10 colleges initially
+import { Colleges } from '../CollegeData';
+import "./Scroll.css";
 
+
+const Scroll = () => {
+    const [items, setItems] = useState({ // State hook to manage items
+        colleges: Colleges.slice(0, 10), // Initial array of colleges with first 10 items
+        visibleCount: 10, // Number of visible colleges
+    }); 
+
+    // State hooks to manage sorting options
     const [sortByRank, setSortByRank] = useState(null);
     const [sortByName, setSortByName] = useState(null);
     const [sortByFee, setSortByFee] = useState(null);
     const [sortByCDReview, setSortByCDReview] = useState(null);
     const [sortByUserReview, setSortByUserReview] = useState(null);
+    // State hook for search query
     const [searchQuery, setSearchQuery] = useState('');
 
-    const handleSearch = (event) => {
-        setSearchQuery(event.target.value);
+    const handleSearch = (event) => { // Function to handle search query change
+        setSearchQuery(event.target.value); // Update search query state
     };
 
-    useEffect(() => {
+    useEffect(() => { // Effect hook to update visible colleges based on search query or visible count change
         const filteredColleges = Colleges.filter(college =>
             college.name.toLowerCase().includes(searchQuery.toLowerCase())
-        );
-        setItems({
+        ); // Filter colleges based on search query
+        setItems({ // Update items state with filtered colleges
             colleges: filteredColleges.slice(0, items.visibleCount),
             visibleCount: items.visibleCount,
         });
-    }, [searchQuery, items.visibleCount]);
+    }, [searchQuery, items.visibleCount]); // Dependency array for the effect hook
 
 
-
+    // Function to fetch more data for infinite scroll
     const fetchMoreData = () => {
-        setTimeout(() => {
+        setTimeout(() => { // Simulating delay
             setItems(prevState => {
-                const newVisibleCount = prevState.visibleCount + 10;
+                const newVisibleCount = prevState.visibleCount + 10; // Increase visible count
                 return {
-                    colleges: Colleges.slice(0, newVisibleCount),
+                    colleges: Colleges.slice(0, newVisibleCount), // Update colleges with new visible count
                     visibleCount: newVisibleCount,
                 };
             });
-        }, 1000);
+        }, 1000); // Delay of 1 second
     };
 
+    // Functions for sorting by name, rank, fee, CD review, and user review
+    // Each function updates the respective sorting state
     const sortName = () => {
         let sortedItems = [...Colleges];
         if (sortByName === 'ascending') {
@@ -151,11 +158,12 @@ const Scroll = () => {
         setSortByUserReview('descending');
     };
 
-
+    // Similar functions for sorting by rank, fee, CD review, and user review
+    // Effect hooks to trigger sorting whenever the respective sorting state changes
 
     useEffect(() => {
         sortRank();
-    }, [sortByRank]); // Trigger sorting whenever sortBy state changes
+    }, [sortByRank]);
 
     useEffect(() => {
         sortName();
