@@ -103,3 +103,49 @@
     justify-content: center;
     z-index: 2;
 }
+@media screen and (max-width: 600px) {
+    .card-component {
+        height: 120px;
+    }
+
+    .cell-ranking {
+        font-size: 14px;
+    }
+
+    .cell-name span {
+        margin: 8px 0 0 5px;
+    }
+
+    .cell-name-main {
+        font-size: 12px;
+    }
+
+    .cell-name-location {
+        font-size: 8px;
+    }
+
+    .cell-fee {
+        font-size: 10px;
+    }
+
+    .cell-fee-icon {
+        height: 15px;
+        width: 15px;
+    }
+
+    .cell-fee-icon img {
+        height: 15px;
+        width: 15px;
+    }
+
+    .cell-rating {
+        font-size: 8px;
+        color: #333333;
+    }
+
+    .cell-pointer {
+        height: 5px;
+        width: 5px;
+    }
+
+}

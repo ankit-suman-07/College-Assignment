@@ -31,3 +31,9 @@
         background-color: #333333;
         border: 2px solid #fff;
 }
+@media screen and (max-width: 600px) {
+    .table-header span {
+        height: 35px;
+        font-size: 10px;
+    }
+}

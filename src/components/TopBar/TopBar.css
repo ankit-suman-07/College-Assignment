@@ -23,7 +23,7 @@
 }
 
 .sort {
-    border: 2px solid black;
+    border: 2px solid orange;
     max-width: 700px;
     padding: 5px;
     margin: 5px;
@@ -59,4 +59,20 @@
 
 .btn-div button img {
     height: 100%;
+}
+@media screen and (max-width: 600px) {
+    .sort {
+        width: calc(100vw - 40px);
+        padding: 2px;
+        margin: 5px;
+    }
+
+    .search input {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .btn-div button {
+        height: 15px;
+    }
 }
