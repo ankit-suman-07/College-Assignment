@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     position: fixed;
-    width: calc(100vw - 35px);
+    width: 100vw;
     z-index: 5;
 }
 

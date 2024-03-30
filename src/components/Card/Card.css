@@ -109,7 +109,7 @@
     }
 
     .cell-ranking {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .cell-name span {
@@ -117,7 +117,7 @@
     }
 
     .cell-name-main {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .cell-name-location {
@@ -125,20 +125,22 @@
     }
 
     .cell-fee {
-        font-size: 10px;
+        margin-top: 10px;
+            font-size: 9px;
     }
 
     .cell-fee-icon {
-        height: 15px;
-        width: 15px;
+            height: 12px;
+                width: 12px;
     }
 
     .cell-fee-icon img {
-        height: 15px;
-        width: 15px;
+        height: 12px;
+            width: 12px;
     }
 
     .cell-rating {
+        margin-top: 10px;
         font-size: 8px;
         color: #333333;
     }
