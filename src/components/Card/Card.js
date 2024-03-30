@@ -1,4 +1,4 @@
-import React from 'react'; // Importing React library
+import React, { useEffect, useState } from 'react'; // Importing React library
 
 // Importing CSS file for styling the Card component
 import "./Card.css";
@@ -7,7 +7,37 @@ import "./Card.css";
 import INRIcon from "../../assets/currency.png";
 
 // Card functional component definition with props
-const Card = ({ ranking, name, city, state, course, course_fee, average_package, highest_package, collegeduniya_rating, user_rating, featured }) => {
+const Card = ({ ranking, name, city, state, course, course_fee, average_package, highest_package, collegeduniya_rating, user_rating, featured, search }) => {
+
+    const [searchStr, setSearchStr] = useState(search);
+    const [nameStr, setNameStr] = useState(name);
+
+    const highlightSearch = () => {
+        const lowerCaseName = name.toLowerCase();
+        const lowerCaseSearch = search.toLowerCase();
+
+        const index = lowerCaseName.indexOf(lowerCaseSearch);
+
+        if (index !== -1) {
+            const before = name.substring(0, index);
+            const highlighted = name.substring(index, index + search.length);
+            const after = name.substring(index + search.length);
+            return (
+                <>
+                    {before}
+                    <span className='highlight' >{highlighted}</span>
+                    {after}
+                </>
+            );
+        }
+        return name;
+    }
+
+
+    useEffect(() => {
+        highlightSearch();
+    }, [searchStr])
+
     return (
         // Card container with class 'card-component'
         <div className='card-component' >
@@ -16,7 +46,7 @@ const Card = ({ ranking, name, city, state, course, course_fee, average_package,
             {/* Cell for displaying name, city, and state */}
             <div className='cell-name' >
                 {/* Main name of the college */}
-                <span className='cell-name-main' >{name}</span>
+                <span className='cell-name-main' >{highlightSearch()}</span>
                 {/* Location of the college */}
                 <span className='cell-name-location' >
                     {city}, {state}

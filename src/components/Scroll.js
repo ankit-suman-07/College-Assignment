@@ -226,6 +226,7 @@ const Scroll = () => {
                             user_rating={item.user_rating}
                             ranking={item.ranking}
                             featured={item.featured}
+                            search={searchQuery}
                         />
                     </div>
                 ))}
