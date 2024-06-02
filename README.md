@@ -1,11 +1,6 @@
-# CollegeDuniya ReactJS Assignment
-- The assignment was given on 28th of March, Thursday
-- Submission deadline was given to be on Saturday.
-
-## Deployed at: [Link](https://college-assignment-six.vercel.app/)
+# Deployed at: [Link](https://college-assignment-six.vercel.app/)
 
 - This project has been made using ReactJS and pure CSS.
-- All the requirements has been fulfilled
 - Used react-infinite-scroll-component library to implement infinite
 - Entire code is present here on GitHub.
 - Deployment has been done using Continuous Deployment through github repository so any change in the code here will directly reflect on the actual live website.
